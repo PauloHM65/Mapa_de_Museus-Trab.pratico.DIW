@@ -1,0 +1,130 @@
+header{
+    
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(160deg, rgba(0,0,0,1) 0%, rgba(17,17,17,1) 14%, rgba(57,57,57,1) 28%, rgba(146,146,146,1) 64%);
+    background: -webkit-linear-gradient(160deg, rgba(0,0,0,1) 0%, rgba(17,17,17,1) 14%, rgba(57,57,57,1) 28%, rgba(146,146,146,1) 64%);
+    background: linear-gradient(160deg, rgba(0,0,0,1) 0%, rgba(17,17,17,1) 14%, rgba(57,57,57,1) 28%, rgba(146,146,146,1) 64%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#929292",GradientType=1);
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+main{
+    margin: 0 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+footer{
+    margin: 0 10px;
+    background-color: rgba(231, 231, 231, 0.322);
+    
+}
+
+header img{
+    margin-left: 0;
+}
+.navegacao ul{
+    
+    margin: auto 0;
+    
+    
+}
+.navegacao ul li {
+    display: inline-block;
+    margin-left: 0.3em;
+    padding: 0.3em;
+    border-radius: 0.3em;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.navegacao ul li:hover{
+    background-color: rgb(73, 73, 73);
+    color: rgb(236, 234, 234);
+    cursor: pointer;
+}
+.seccoes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#button_destaque{
+    height: 40px;
+}
+.caixa_pricipal{
+    margin-top: 10px;
+    margin-bottom: 17px;
+    border-bottom-left-radius: 7px;
+    border-bottom: 3px black solid;
+    width: 100%;
+}
+#foto_dados_autoria{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 2em;
+    justify-content:space-between;
+    
+    
+    
+}
+#dados_autoria{
+    
+    margin-left: 1em;
+    
+}
+
+#loc_dat_albun{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+#um{
+    margin-left: 1em;
+}
+.linkalbuns{
+    text-decoration-line: none;
+    text-decoration: none;
+}
+.row{
+    margin-bottom: 18px;
+}
+.imgalbum{
+    height: 176px;
+
+}
+@media screen and (max-width:850px) {
+    #foto_dados_autoria{
+        
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .imgalbum{
+        height:auto
+    }
+}
+@media screen and (max-width:750px) {
+    
+    .imgalbum{
+        height:auto
+    } 
+}
+@media screen and (min-width:318px) {
+    
+    header{
+        height: 4.5em;
+    }
+}
